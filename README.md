@@ -58,4 +58,17 @@ In Linux, go to the directory `LinuxC++Compile` containing the source code and r
 
 In Windows, go to the directory `WindowsC++Compile` and fire up the Community Visual Studio 2019 solution `NRpyDNAcode.sln` .  This should build the two files (in the `x64\Release` directory) `NRpyDNAcode.pyd` and `NRpyRS.pyd` .  Copy these to the directory containing `test_program.py`.   If this doesn't work, and you need to build your the Windows modules from scratch, then keep these points in mind:  You want to compile to produce .dll files (not .exe files), and you want to then simply rename these to .pyd.  As in Linux, a common source of errors is the compiler's inability to find required Python and Numpy include and library files that are part of your Python installation.  You'll need to locate them and set appropriate include directories.
 
+### LICENSE (MIT License)
+
+Copyright 2020 by William H. Press, John A. Hawkins, Stephen K. Jones jr, and Ilya J. Finkelstein
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
